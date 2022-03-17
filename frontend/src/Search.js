@@ -8,7 +8,7 @@ function Search() {
 
   const getTorreUser = async () => {
     await axios
-      .get("http://localhost:3000/api/search?query=" + search)
+      .get("https://torre-backend1.herokuapp.com/api/search?query=" + search)
       .then((response) => {
         console.log(response.data);
         setLoading(false);
