@@ -9,4 +9,3 @@ To initialize the project in frontend -npm start
 
 Deployed: https://torre-frontend1.herokuapp.com/
 
-Translated with www.DeepL.com/Translator (free version)
